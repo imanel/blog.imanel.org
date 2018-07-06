@@ -16,7 +16,7 @@ post_class: post-template
 
     <article class="post">
 
-        <header class="post-header">
+        <!-- <header class="post-header">
             <h1 class="post-title">{{ page.title }}</h1>
             <section class="post-meta">
                 <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
@@ -24,7 +24,7 @@ post_class: post-template
                     {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
                 {% endif %}
             </section>
-        </header>
+        </header> -->
 
 <!--         <header class="post-header">
             <a id="blog-logo" href="{{site.url}}">
@@ -43,7 +43,7 @@ post_class: post-template
             {% endif %}
         </span> -->
 
-        <!-- <h1 class="post-title">{{ page.title }}</h1> -->
+        <h1 class="post-title">{{ page.title }}</h1>
 
         <section class="post-content">
             {{content}}

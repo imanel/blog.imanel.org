@@ -1,4 +1,4 @@
-title: Your New Jekyll Site
+title: Imanel's Blog
 description: Blogging about stuffs
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
@@ -6,11 +6,14 @@ logo: false
 paginate: 10
 baseurl: /
 domain_name: 'https://blog.imanel.org'
+permalink: pretty
+
 google_analytics: 'UA-XXXXXXXX-X'
 plugins:
   - jekyll-feed
   - jekyll-pagination
   - jekyll-redirect-from
+  - jekyll-seo-tag
   - jekyll-sitemap
 
 # Details for the RSS feed generator
