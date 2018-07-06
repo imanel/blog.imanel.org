@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+title: Your New Jekyll Site
 description: Blogging about stuffs
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
@@ -14,5 +14,6 @@ plugins:
   - jekyll-sitemap
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Bernard Potocki'
+url: ''
+author: 'Bernard Potocki'
+gravatar: '00c5bb4f96b1094aec27674a810caae6'
