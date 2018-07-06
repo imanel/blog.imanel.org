@@ -7,7 +7,10 @@ paginate: 15
 baseurl: /
 domain_name: 'https://yourblog-domain.com'
 google_analytics: 'UA-XXXXXXXX-X'
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-feed
+  - jekyll-pagination
+  - jekyll-sitemap
 
 # Details for the RSS feed generator
 url:            'blog url'
