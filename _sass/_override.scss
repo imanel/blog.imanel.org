@@ -78,3 +78,15 @@ body:not(.post-template) .post-title {
 .author-image {
   margin-top: 0;
 }
+
+.post-footer .share a:last-of-type {
+  margin-right: 0;
+}
+
+.post-footer .author a {
+  font-size: 1.8rem;
+  display: inline-block;
+  margin: 1rem 1.6rem 1.6rem 0;
+  color: #BBC7CC;
+  text-decoration: none;
+  }

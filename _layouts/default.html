@@ -10,6 +10,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/fontawesome/css/solid.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/fontawesome/css/brands.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/fontawesome/css/fontawesome.css" />
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
   {% seo %}
 </head>
@@ -20,9 +23,9 @@
       {% if page.main %}
       <a class="back-button" href="{{ "/" | relative_url }}">{{ site.title }}</a>
       {% else %}
-        <a class="back-button icon-arrow-left" href="{{ "/" | relative_url }}">Home</a>
+        <a class="back-button" href="{{ "/" | relative_url }}"><i class="fas fa-angle-left"></i>  Home</a>
       {% endif %}
-      <a class="subscribe-button icon-feed" href="{{ "/" | relative_url }}feed.xml">Subscribe</a>
+      <a class="subscribe-button" href="{{ "/" | relative_url }}feed.xml"><i class="fas fa-rss"></i> Subscribe</a>
     </nav>
   </header>
 
