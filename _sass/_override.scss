@@ -1,4 +1,72 @@
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
-	display:inline;
+  display: inline;
+  font-size: 1em;
+}
+
+.post {
+  max-width: initial;
+  width: initial;
+  border-bottom: none;
+  padding-bottom: 0;
+  &:after {
+    display: none;
+  }
+  footer {
+    border-bottom: #EBF2F6 1px solid;
+    padding-bottom: 4rem;
+    &:after {
+      display: block;
+      content: "";
+      width: 7px;
+      height: 7px;
+      border: #E7EEF2 1px solid;
+      position: absolute;
+      bottom: -5px;
+      left: 50%;
+      margin-left: -5px;
+      background: #FFF;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      box-shadow: #FFF 0 0 0 5px;
+    }
+    &.post-meta:after {
+      bottom: -4px;
+    }
+  }
+}
+
+h1, h2, h3, .post-content p, code, .post-footer, .post-excerpt, .post-meta, ul {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+code {
+  display: block;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+pre code {
+  font-size: 0.85em;
+  line-height: 1.5em;
+}
+
+body:not(.post-template) .post-title {
+  font-size: 3rem;
+  letter-spacing: -1px;
+  text-indent: 0;
+  color: #4A4A4A;
+  transition: color ease 0.3s;
+  &:hover {
+    color: #000;
+  }
 }

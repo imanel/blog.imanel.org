@@ -54,7 +54,7 @@ end
 
 And that’s all! Of course it’s just simplified implementation, but I think that shows what I’m talking about. No more handling events, checking version and implementing multiple drafts - it’s all inside! And together with that we can also build client:
 
-# Building client
+## Building client
 
 This one is more tricky but still most work is handled by LibWebsocket:
 
