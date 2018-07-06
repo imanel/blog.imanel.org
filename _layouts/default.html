@@ -18,11 +18,11 @@
   <header class="main-header post-head no-cover">
     <nav class="main-nav clearfix">
       {% if page.main %}
-      <a class="back-button" href="{{ site.baseurl }}">{{ site.title }}</a>
+      <a class="back-button" href="{{ "/" | relative_url }}">{{ site.title }}</a>
       {% else %}
-        <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
+        <a class="back-button icon-arrow-left" href="{{ "/" | relative_url }}">Home</a>
       {% endif %}
-      <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+      <a class="subscribe-button icon-feed" href="{{ "/" | relative_url }}feed.xml">Subscribe</a>
     </nav>
   </header>
 
@@ -30,7 +30,7 @@
 
   <footer class="site-footer clearfix">
     <section class="copyright">
-      <a href="{{ site.baseurl }}">{{ site.title }}</a> &copy; {{"now" | date: "%Y"}} &bull; All rights reserved.
+      <a href="{{ "/" | relative_url }}">{{ site.title }}</a> &copy; {{"now" | date: "%Y"}} &bull; All rights reserved.
     </section>
     <section class="poweredby">
       Made with Jekyll using <a href="http://github.com/rosario/kasper">Kasper theme</a>
