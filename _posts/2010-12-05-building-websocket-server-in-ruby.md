@@ -122,10 +122,10 @@ gem install libwebsocket
 
 See project at github: [https://github.com/imanel/libwebsocket][libwebsocket].
 
-[vti]: http://showmetheco.de/articles/2010/11/timtow-to-build-a-websocket-server-in-perl.html
 [em-websocket]: https://github.com/igrigorik/em-websocket
-[web-socket-ruby]: https://github.com/gimite/web-socket-ruby
-[sunshowers]: https://rainbows.rubyforge.org/sunshowers
 [github]: https://github.com
 [libwebsocket]: https://github.com/imanel/libwebsocket
 [socky]: https://github.com/socky
+[sunshowers]: https://rainbows.rubyforge.org/sunshowers
+[vti]: http://showmetheco.de/articles/2010/11/timtow-to-build-a-websocket-server-in-perl.html
+[web-socket-ruby]: https://github.com/gimite/web-socket-ruby

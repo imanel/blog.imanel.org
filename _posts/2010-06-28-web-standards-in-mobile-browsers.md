@@ -14,6 +14,6 @@ Last discussed system is a WebOS version 1.4.1 (there should be new version 1.4.
 
 All tests were performed using a [Modernizr][modernizr], and some of them tested manually (audio, video, WebSockets and geolocation).
 
+[modernizr]: https://www.modernizr.com/
 [socky]: https://github.com/socky/socky-server-ruby
 [web-socket-js]: https://github.com/gimite/web-socket-js
-[modernizr]: https://www.modernizr.com/

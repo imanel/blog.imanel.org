@@ -48,8 +48,8 @@ end
 
 First one ensures that all scripts are loaded before moving on to the next steps. Second one gives Juggernaut time to deliver messages. With this configuration you can use all delivered by Cucumber steps without worrying about compatibility problems.
 
-[rspec]: https://rspec.info
-[cucumber]: https://cukes.info
-[webrat]: https://github.com/brynary/webrat
 [celerity]: https://celerity.rubyforge.org
+[cucumber]: https://cukes.info
+[rspec]: https://rspec.info
 [selenium]: http://seleniumhq.org
+[webrat]: https://github.com/brynary/webrat

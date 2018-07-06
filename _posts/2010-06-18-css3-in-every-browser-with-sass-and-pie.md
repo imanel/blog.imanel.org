@@ -62,7 +62,7 @@ This is another line of which you must remember. And this is the best place wher
 
 I hope that this solution will help you to create beautiful and semantic pages a lot easier.
 
-[github]: https://github.com/
-[sass]: https://sass-lang.com/
 [dry]: https://en.wikipedia.org/wiki/Don't_repeat_yourself
+[github]: https://github.com/
 [pie]: http://css3pie.com/
+[sass]: https://sass-lang.com/
