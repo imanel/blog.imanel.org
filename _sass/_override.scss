@@ -91,4 +91,40 @@ body:not(.post-template) .post-title {
   margin: 1rem 1.6rem 1.6rem 0;
   color: #BBC7CC;
   text-decoration: none;
+  &:hover {
+    color: #50585D;
   }
+}
+
+@media only screen and (max-width: 500px) {
+  .post-footer .share a:last-of-type {
+    margin-right: 0.8rem;
+  }
+
+  .post-footer .author a:first-of-type {
+    margin-left: 0.8rem;
+  }
+
+  .poweredby {
+    display: none;
+  }
+
+  .copyright {
+    width: 100%;
+    text-align: center;
+  }
+
+  .post-date {
+    display: initial;
+  }
+
+  .post {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  pre {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
