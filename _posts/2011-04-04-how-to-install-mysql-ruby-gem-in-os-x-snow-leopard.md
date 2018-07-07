@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "How to install MySQL Ruby gem in OS X Snow Leopard"
-redirect_from: "/how-to-install-mysql-ruby-gem-in-os-x-snow-leopard"
+redirect_from:
+  - /how-to-install-mysql-ruby-gem-in-os-x-snow-leopard
+  - /blog/2011/04/how-to-install-mysql-ruby-gem-in-os-x-snow-leopard
 ---
 
 I know this was posted multiple times by other people, but this information is scattered and hard to find so I’m posting quick summary.

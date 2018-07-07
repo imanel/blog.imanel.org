@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Building WebSocket server in Ruby"
-redirect_from: "/building-websocket-server-in-ruby"
+redirect_from:
+  - /building-websocket-server-in-ruby
+  - /blog/2010/12/building-websocket-server-in-ruby
 ---
 
 [Vti’s post][vti] about building WebSocket server inspired me to write another one, but this time about both server and client in Ruby.
