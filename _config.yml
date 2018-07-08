@@ -1,12 +1,11 @@
 title: Imanel's Blog
 description: ''
 
-paginate: 10
 url: https://blog.imanel.org
 baseurl: /
 permalink: pretty
+paginate: 10
 
-google_analytics: 'UA-19412035-3'
 plugins:
   - jekyll-feed
   - jekyll-pagination
@@ -19,3 +18,5 @@ author:
   picture: https://gravatar.com/avatar/00c5bb4f96b1094aec27674a810caae6.jpeg
   linkedin: bernardpotocki
   twitter: _imanel
+
+google_analytics: 'UA-19412035-3'
