@@ -1,4 +1,4 @@
-{% unless page.disable_comments %}
+{% unless jekyll.environment == 'development' or page.disable_comments %}
 
 <section class="disqus">
   <div id="disqus_thread"></div>
