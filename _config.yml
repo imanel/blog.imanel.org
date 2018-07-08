@@ -7,7 +7,7 @@ url: https://blog.imanel.org
 baseurl: /
 permalink: pretty
 
-# google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-19412035-3'
 plugins:
   - jekyll-feed
   - jekyll-pagination
