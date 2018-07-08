@@ -3,7 +3,6 @@ description: ''
 
 logo: false
 paginate: 10
-domain_name: https://blog.imanel.org
 url: https://blog.imanel.org
 baseurl: /
 permalink: pretty
