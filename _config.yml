@@ -16,9 +16,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Details for the RSS feed generator
-url: ''
-
 author:
   name: Bernard Potocki
   picture: https://gravatar.com/avatar/00c5bb4f96b1094aec27674a810caae6.jpeg
