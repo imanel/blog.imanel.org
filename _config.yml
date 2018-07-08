@@ -5,6 +5,7 @@ url: https://blog.imanel.org
 baseurl: /
 permalink: pretty
 paginate: 10
+paginate_path: /page/:num/
 
 plugins:
   - jekyll-feed
